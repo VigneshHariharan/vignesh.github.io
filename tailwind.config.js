@@ -17,10 +17,11 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        sans: ['Noto Sans JP', 'Inter', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        blue: colors.sky,
+        blue: colors.fuchsia,
+        gray: colors.warmGray,
         code: {
           green: '#b5f4a5',
           yellow: '#ffe484',
